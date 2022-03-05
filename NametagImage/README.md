@@ -1,0 +1,1 @@
+put NametagImage.renderImgIcon(entityIn); in renderLivingEntityLabel() method in Render.java
