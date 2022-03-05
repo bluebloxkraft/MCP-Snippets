@@ -1,6 +1,5 @@
-package bbkzx08.me.bluebloxkraftclient.bluebloxkraft.iscool.client.code_bbk_client.misc.extras.io.github.bluebloxkraft.cool.client;
+package clientname.utils;
 
-import bbkzx08.me.bluebloxkraftclient.bluebloxkraft.iscool.client.code_bbk_client.BlueBloxKraftClient;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.Gui;
@@ -10,7 +9,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class NametagImage {
 
-	private static final ResourceLocation icon = BlueBloxKraftClient.getBBKC().ICON;
+	private static final ResourceLocation icon = "client/icon.png";
 	
 	private static final Minecraft mc = Minecraft.getMinecraft();
 	private static final FontRenderer fr = mc.fontRendererObj;
@@ -23,20 +22,11 @@ public class NametagImage {
 	 * @return
 	 */
 	private static <T> boolean hasImgIcon(T player) {
-		if(((Entity) player).getName().equals("BlueBloxKraft")) {
+		if(((Entity) player).getName().equals("player1")) {
 			return true;
-		} else if(((Entity) player).getName().equals("xBBKzX08iscool")) {
+		} else if(((Entity) player).getName().equals("player2")) {
 			return true;
-		} else if(((Entity) player).getName().equals("DK_Gaming366")) {
-			return true;
-		} else if(((Entity) player).getName().equals("xNotMercy")) {
-			return true;
-		} else if(((Entity) player).getName().equals("zNqtMxrcy")) {
-			return true;
-		}
-		
-		
-		else return false;
+		} else return false;
 	}
 	
 	/**
