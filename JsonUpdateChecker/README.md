@@ -1,0 +1,1 @@
+Put UpdateChecker.checkIfAvailable(); in your client's startup/init method
