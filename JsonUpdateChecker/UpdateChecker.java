@@ -56,10 +56,12 @@ public class UpdateChecker {
 	static double[] verArray = version().stream().mapToDouble(d -> d).toArray();
 	
 	public static void checkIfAvailable() {
-		if(getClientVersion() < verArray[0]) {
-			makeAvailable();
-		} else {
-			makeUnavailable();
+		if(verArray.length == 1) {
+			if(getClientVersion() < verArray[0]) {
+				makeAvailable();
+			} else {
+				makeUnavailable();
+			}
 		}
 	}
 	
