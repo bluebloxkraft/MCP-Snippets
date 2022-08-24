@@ -30,15 +30,6 @@ public class ModPaperdoll extends ModDraggable {
 	@Override
 	public void render(ScreenPosition pos) {
 		this.drawPaperdoll();
-	    /*	
-		if(mc.thePlayer.isSprinting()) {
-			GuiInventory.drawEntityOnScreen(pos.getAbsoluteX() + 35, pos.getAbsoluteY() + 105, 50, 20, 50, mc.thePlayer);
-		} else if(mc.thePlayer.isSneaking()) {
-			GuiInventory.drawEntityOnScreen(pos.getAbsoluteX() + 35, pos.getAbsoluteY() + 105, 50, 20, 50, mc.thePlayer);
-		} else {
-			
-		}
-		*/
 	}
 
 }
