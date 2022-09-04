@@ -9,7 +9,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class NametagImage {
 
-	private static final ResourceLocation icon = "client/icon.png";
+	private static final ResourceLocation icon = new ResourceLocation("client/icon.png");
 	
 	private static final Minecraft mc = Minecraft.getMinecraft();
 	private static final FontRenderer fr = mc.fontRendererObj;
