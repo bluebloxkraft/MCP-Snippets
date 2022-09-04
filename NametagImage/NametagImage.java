@@ -36,7 +36,7 @@ public class NametagImage {
 	 * @param player
 	 */
 	public static <T> void renderImgIcon(T player) {
-		if(hasImgIcon(player)) {
+		if(player instanceof AbstractClientPlayer && hasImgIcon(player)) {
 			Minecraft.getMinecraft().getTextureManager().bindTexture(icon);
 			Gui.drawModalRectWithCustomSizedTexture(-fr.getStringWidth(((EntityPlayer) player).getDisplayName().getFormattedText()) / 2 - 12, -2, 10, 10, 10, 10, 10, 10);
 		}
