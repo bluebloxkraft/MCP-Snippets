@@ -16,7 +16,7 @@ public class ModTime extends ModDraggable {
 	}
 
 	@Override
-	public void render(ScreenPosition paramScreenPosition) {
+	public void render(ScreenPosition pos) {
 		//you can change the kk:mm to hh:mm to show time in 12 hour format
 		fr.drawString(new SimpleDateFormat("kk:mm").format(new Date()), pos.getAbsoluteX(), pos.getAbsoluteY(), -1);
 	}
