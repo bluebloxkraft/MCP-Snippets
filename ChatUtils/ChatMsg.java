@@ -1,4 +1,3 @@
-package bbkzx08.me.bluebloxkraftclient.bluebloxkraft.iscool.client.code_bbk_client.misc.extras.io.github.bluebloxkraft.cool.utils.chat;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ChatComponentText;
