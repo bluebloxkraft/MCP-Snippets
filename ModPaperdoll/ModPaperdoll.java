@@ -1,11 +1,4 @@
-package bbkzx08.me.bluebloxkraftclient.bluebloxkraft.iscool.client.code_bbk_client.misc.extras.me.bluebloxkraft.client.pvp.main.mods.impl;
-
-import org.lwjgl.opengl.GL11;
-
-import bbkzx08.me.bluebloxkraftclient.bluebloxkraft.iscool.client.code_bbk_client.misc.extras.io.github.bluebloxkraft.cool.utils.BBKCUtils;
-import bbkzx08.me.bluebloxkraftclient.bluebloxkraft.iscool.client.code_bbk_client.misc.extras.me.bluebloxkraft.client.pvp.main.gui.hud.ScreenPosition;
-import bbkzx08.me.bluebloxkraftclient.bluebloxkraft.iscool.client.code_bbk_client.misc.extras.me.bluebloxkraft.client.pvp.main.mods.ModDraggable;
-import net.minecraft.client.renderer.GlStateManager;
+package pkg;
 
 public class ModPaperdoll extends ModDraggable {
 
