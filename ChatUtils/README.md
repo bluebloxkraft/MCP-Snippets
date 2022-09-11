@@ -1,1 +1,1 @@
-💀
+new ChatMsg("hello");
