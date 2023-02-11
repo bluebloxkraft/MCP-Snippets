@@ -1,1 +1,1 @@
-Put UpdateChecker.checkIfAvailable(); in your client's startup/init method
+Put UpdateChecker.checkLatestVersion(); in your client's startup/init method
