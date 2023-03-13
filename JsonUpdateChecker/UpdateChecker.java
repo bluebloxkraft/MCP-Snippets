@@ -11,7 +11,7 @@ public class UpdateChecker {
 	public static double latest_version = -1;
 	
 	/*
-         * check the JSON file the latest version
+         * check the JSON file for the latest version
        	 */
 	public static void checkLatestVersion() {
 		try {
