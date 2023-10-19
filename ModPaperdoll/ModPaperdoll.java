@@ -5,8 +5,7 @@ public class ModPaperdoll extends ModDraggable {
 	private void drawPaperdoll() {
 		GlStateManager.pushMatrix();
 		GL11.glColor4f(1,1,1,1);
-		//You could use GuiInventory.drawEntityOnScreen instead
-		BBKCUtils.drawEntity(pos.getAbsoluteX() + 35, pos.getAbsoluteY() + 105, 50, 20, 50, mc.thePlayer);
+		GuiInventory.drawEntityOnScreen(pos.getAbsoluteX() + 35, pos.getAbsoluteY() + 105, 50, 20, 50, mc.thePlayer);
 		GlStateManager.popMatrix();
 	}
 	
