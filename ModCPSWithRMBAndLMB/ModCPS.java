@@ -1,12 +1,12 @@
-package bbkzx08.me.bluebloxkraftclient.bluebloxkraft.iscool.client.code_bbk_client.misc.extras.me.bluebloxkraft.client.pvp.main.mods.impl;
+package pkg;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.lwjgl.input.Mouse;
 
-import bbkzx08.me.bluebloxkraftclient.bluebloxkraft.iscool.client.code_bbk_client.misc.extras.me.bluebloxkraft.client.pvp.main.gui.hud.ScreenPosition;
-import bbkzx08.me.bluebloxkraftclient.bluebloxkraft.iscool.client.code_bbk_client.misc.extras.me.bluebloxkraft.client.pvp.main.mods.ModDraggable;
+import ScreenPosition;
+import ModDraggable;
 
 public class ModCPS extends ModDraggable {
 	
@@ -53,12 +53,11 @@ public class ModCPS extends ModDraggable {
 			}
 		}
 		
-		fr.drawStringWithShadow("ง8[งf" + getLMB() + "งb|งf" + getRMB() + "ง8]", pos.getAbsoluteX(), pos.getAbsoluteY(), -1);
+		fr.drawStringWithShadow("ยง8[ยงf" + getLMB() + "ยงb|ยงf" + getRMB() + "ยง8]", pos.getAbsoluteX(), pos.getAbsoluteY(), -1);
 		
 	}
 
 	public int getLMB() {
-		
 		final long time = System.currentTimeMillis();
 		this.clicksLMB.removeIf(aLong -> aLong + 1000 < time);
 		return this.clicksLMB.size();
@@ -66,7 +65,6 @@ public class ModCPS extends ModDraggable {
 	}
 	
 	public int getRMB() {
-		
 		final long time = System.currentTimeMillis();
 		this.clicksRMB.removeIf(aLong -> aLong + 1000 < time);
 		return this.clicksRMB.size();
